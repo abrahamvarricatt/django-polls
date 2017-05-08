@@ -2,3 +2,4 @@ VENV
 .idea/
 __pycache__/
 *.pyc
+.python-version
