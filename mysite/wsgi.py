@@ -12,7 +12,10 @@ import sys
 
 from django.core.wsgi import get_wsgi_application
 
-sys.path.insert(0, '/srv/sources/my-polls')
+# sys.path.insert(0, '/srv/sources/my-polls')
+
+# os.environ.setdefault("DJANGO_SETTINGS_MODULE", "mysite.settings")
+
 
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "mysite.settings")
 
